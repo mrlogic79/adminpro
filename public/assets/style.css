@@ -1,0 +1,19 @@
+body{
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: linear-gradient(to left, rgb(188, 233, 235), rgb(163, 231, 235), rgb(75, 230, 238));
+}
+
+@font-face {
+    font-family: "BYkan";
+    src: url(../B_Yekan/Yekan.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    direction: rtl;
+    text-align: right;
+    font-family: BYkan;
+}

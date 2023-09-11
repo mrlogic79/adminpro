@@ -1,0 +1,130 @@
+
+ul{
+    list-style: none;
+}
+
+
+li a{
+    text-decoration: none;
+    color: unset;
+}
+
+
+.sidebar_section{
+    background: linear-gradient(#12382881 , #3a2a2a7a , #0b2b3a42) , url(./images/Cutest-Little-Kitten-1.jpg) no-repeat;
+    background-size: cover;
+    color: white; position: fixed;
+    width: 250px;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    display: block;
+    transition: all 300ms ease;
+    z-index: 999;
+   
+}
+
+.sidebar_avatar{
+    background: url(./images/avatar.jpeg);
+    background-size: cover;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-position: center;
+    margin-top: 12px;
+   
+}
+.sidebar_list li{
+    padding: 8px;
+    transition: all 500ms ease;
+}
+.sidebar_list li:not(.sidebar_avatar):hover{
+    padding: 0.3rem 1rem;
+    background: #b8b8b8ea;
+}
+
+.menu_button{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    z-index: 1000;
+    
+}
+.content_section{
+    position: fixed;
+    width: calc(100% - 250px);
+    left: 0;
+    top: 0;
+    height: 100vh;
+    overflow: auto;
+}
+.content_section2{
+    position: fixed;
+    width:100%;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    overflow: auto;
+}
+.content{
+    background: url(./images/contect.jpg);
+    background-size:cover;
+    background-position: center;
+
+}
+th , td {
+    text-align: center !important;
+}
+
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    padding: 10px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .address-group {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .address-line {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+  }
+  
+  .adduser{
+    background-color: rgb(240, 240, 240);
+  }
